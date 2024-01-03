@@ -28,11 +28,15 @@ cd emoji-ocr
 
 * Open the script in a text editor and modify the image_path variable to point to your image file.
 
-```image_path = 'your_image.jpg'```
+```
+image_path = 'your_image.jpg'
+```
 
 * Run the script:
 
+```
 python emoji_ocr.py
+```
 
 ## Output
 The script will print the detected text, preprocessed text, closest keywords, and corresponding emojis. If OCR does not detect any text in the image, a message stating so will be displayed.
